@@ -2,7 +2,7 @@
     <div class="w-screen bg-white lg:px-17.5 lg:py-40 px-4 py-20">
         <section class="max-w-[1440px] mx-auto">
             <h1 class="text-[40px] font-medium text-[#18191C]">Most Popular Vacancies</h1>
-            <div class="lg:grid lg:grid-cols-4 lg:grid-rows-3 flex flex-wrap
+            <div class="lg:grid lg:grid-cols-4 lg:grid-rows-3 flex flex-col
              gap-x-4 gap-y-8 mt-5 lg:mt-10">
                 <div v-for="vacancy of vacancies" :key="vacancy.id"
                     class="max-w-[321px] space-y-5 lg:col-span-1 lg:row-span-1">

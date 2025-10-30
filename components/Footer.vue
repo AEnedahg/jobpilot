@@ -38,7 +38,7 @@
                 >{{ support }}</p>
             </div>
         </section>
-        <section class="flex flex-col lg:flex-row lg:justify-between mt-10 max-w-[1440px] mx-auto">
+        <section class="flex flex-col lg:flex-row lg:justify-between mt-10 max-w-[1440px] mx-auto gap-y-[50px]">
             <small class="text-[#767F8C] text-[14px]">@ {{ new Date().getFullYear() }} Jobpilot - Job Portal. All rights Rserved</small>
             <div class="flex items-center gap-x-[20px]">
                 <img 
