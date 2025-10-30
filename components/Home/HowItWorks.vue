@@ -11,7 +11,7 @@
                     <img :src="step.icon" alt="step icon" 
                         class="mb-[24px]"
                     />
-                    <img :src="step.arrow" alt="step dashed arrow" 
+                    <img :src="step.arrow" alt="" 
                         :class="step.arrowClass"
                     />
                     <h6 class="text-[18px] font-medium text-[#18191C]
