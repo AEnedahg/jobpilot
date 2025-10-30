@@ -14,7 +14,7 @@
                 v-for="(job, index) in jobs"
                 :key="index"
                 class="p-6 
-                w-[424px] mx-auto md:mx-0
+                max-w-[424px] mx-auto md:mx-0
                 bg-gradient-to-r from-[#FFF6E6] to-[#FFFFFF] rounded-[8px] flex flex-col justify-between"
             >
                 <div>
